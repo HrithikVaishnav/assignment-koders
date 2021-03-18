@@ -1,0 +1,29 @@
+.header{
+    display: grid;
+    grid-template-columns: 9fr .5fr 1.5fr;
+    padding: 10px 10px;
+    height: 30px;
+    box-shadow: 10px 0 10px -4px rgb(63, 61, 61);
+}
+.Notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(0,0,0,.125);
+    color: rgba(0,0,0,.125);
+}
+.Profile{
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid rgba(0,0,0,.125);
+    padding: 5px;
+}
+.Profile > div{
+    font-size: 1vw;
+}
+.Profile > img{
+    border: 1px solid rgba(0,0,0,.125);
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

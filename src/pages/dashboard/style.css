@@ -1,0 +1,159 @@
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 30px;
+}
+.item{
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    height: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item > .topic{
+    font-size: .8vw;
+    font-weight: 600;
+    color: rgb(85, 81, 81);
+}
+.item > .Number{
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+}
+.item > .growth{
+    font-size: 1vw;
+    font-weight: 600;
+    color: rgb(13, 150, 70);
+}
+.item > .neg{
+    color: rgb(182, 3, 42);
+}
+
+.grow{
+    display: flex;
+    flex-direction: row;
+}
+.icons-g{
+    color: green;
+}
+.icon{
+    color: red;
+}
+.mid-container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+.left-cont{
+    margin:20px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.right-cont{
+    margin:20px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.date-area{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    background-color: #fbfbfb;
+}
+.time-box{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 10px;
+}
+.time-box > input:focus{
+    outline: 0;
+}
+.date-area > button{
+    font-size: 0.8vw;
+    margin-left: auto;
+    height: 33px;
+    padding:8px;
+}
+
+.dis-item{
+    display: grid;
+    grid-template-columns: 4fr 5fr 2.7fr;
+    border-radius: 10px;
+}
+.item-1{
+    margin:20px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item-1 > .draft-topic{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+} 
+.item-1 > .draft-topic > input{
+    width: 80%;
+    padding: 10px;
+    border-color: rgba(0,0,0,.125);
+}
+.item-1 > .draft-cont{ 
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+} 
+.item-1 > .draft-cont > input{
+    width: 80%;
+    padding: 10px;
+    height: 240px;
+    border-color: rgba(0,0,0,.125);
+}
+.item-1 > button{
+    background-color: #007bff;
+    margin: 22px;
+    color: white;
+    padding:10px;
+    border-radius: 4px;
+}
+.item-2{
+    margin:20px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item-3{
+    margin:0px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.item-3 > .ref-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 12px;
+}
+.item-3 > .ref-last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 12px;
+    color: #495057;
+}
+.item-3 > .ref-last > div > select{
+    padding : 10px;
+}
+.item-3 > .ref-last > p{
+    padding :10px;
+}

@@ -1,0 +1,30 @@
+*{
+  background: #f5f6f8;
+}
+.container{
+  margin-left: 250px;
+}
+
+.kuch-head{
+  color: #3d5170;
+  padding :12px;
+  padding-top:20px;
+  font-weight: 500;
+  border-bottom: rgba(0,0,0,.125) 1px solid;
+  padding-bottom: 20px;
+}
+
+.heading{
+  font-size: 0.8vw;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 400;
+  color: #3d5170;
+}
+.main-heading{
+  margin-left: 20px;
+  font-size: 1.625rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #3d5170;
+}

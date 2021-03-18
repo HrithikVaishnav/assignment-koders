@@ -1,0 +1,27 @@
+.table1{
+    
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin : 20px auto;
+    border-radius: 30px;
+}
+.table-item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-bottom: rgba(0,0,0,.125) 1px solid;
+}
+.table-item > div{
+    margin-right: 190px;
+    font-weight: 600;
+    color: #3d5170;
+}
+.not-font > div{
+    font-weight: 200;
+}
+.table2{
+    background-color: black;
+}
